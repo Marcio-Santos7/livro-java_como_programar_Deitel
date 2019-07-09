@@ -9,7 +9,7 @@ package cap9;
  * BasePlusCommissionEmployee2 herda da classe CommissionEmployee.
  * @author Marcio Leandro
  */
-public class BasePlusCommissionEmployee2 extends CommissionEmployee{
+public class BasePlusCommissionEmployee2 extends CommissionEmployee2{
     private double baseSalary; // salário-base por semana
     
     // construtor de seis argumentos
