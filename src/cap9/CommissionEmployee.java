@@ -78,6 +78,11 @@ public class CommissionEmployee extends Object {
     } // fim do método getCommisionRate
     
     // calcula os lucros
+    public double earnings(){
+        return commissionRate * grossSales ;
+    } // fim do método earnings
+    
+    // retorna a representação String do objeto CommissionEmployee
     public String toString(){
         return String.format( "%s: %s %s\n%s: %s\n%s: %.2f\n%s: %.2f",
                 "commissionemployee", firstName, lastName,
