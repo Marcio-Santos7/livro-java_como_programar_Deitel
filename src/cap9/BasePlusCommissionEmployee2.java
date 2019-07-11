@@ -19,7 +19,7 @@ public class BasePlusCommissionEmployee2 extends CommissionEmployee2{
             // da superclasse
             super( first, last, ssn, sales, rate );
             
-            setBaseSalary( amount ); // valida e armazena salário-base
+            setBaseSalary( salary ); // valida e armazena salário-base
     } // fim do construtor BasePlusCommissionEmployee2 de seis argumentos
     
     // configura o salário-base
